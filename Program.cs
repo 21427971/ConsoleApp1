@@ -33,8 +33,16 @@ namespace ConsoleApp1
                 Console.WriteLine("This numbers are equal");
             }
             else
+            {  
+             Console.WriteLine("This numbers are invalid");
+            }
+            //check if the bigger number is an even or odd number
+            if (Num%2==0)
             {
-                Console.WriteLine("This numbers are equal");
+                Console.WriteLine("This number is an even number");
+            }
+            else
+                Console.WriteLine("This number is an odd number");
             }
         }
     }
