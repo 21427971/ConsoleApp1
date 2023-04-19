@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Msimango KSI
+            // Application to check the big number, using a conditional statement
+            Console.WriteLine("Enter two numbers");
+            int Num1 = int.Parse(Console.ReadLine());
+            int Num2 = int.Parse(Console.ReadLine());
+            int  Num=0;
+            if (Num2 > Num1)
+            {
+                Num = Num2;
+                Console.WriteLine("The bigger number is :{0}", Num);
+            }
+            else
+            if (Num2 < Num1)
+            {
+                Num = Num1;
+                Console.WriteLine("The bigger number is :{0}", Num);
+            }
+            else
+                if (Num1 == Num2)
+            {
+                Console.WriteLine("This numbers are equal");
+            }
+            else
+            {
+                Console.WriteLine("This numbers are equal");
+            }
+        }
+    }
+}
