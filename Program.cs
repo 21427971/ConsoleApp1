@@ -42,6 +42,7 @@ namespace ConsoleApp1
                 Console.WriteLine("This number is an even number");
             }
             else
+            {
                 Console.WriteLine("This number is an odd number");
             }
         }
